@@ -1,0 +1,55 @@
+.table {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    border: 3px solid purple;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #ff8de2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffddff;
+}
+
+/* table tr */
+.thead {
+    text-align: start;
+    font-size: 20px;
+    border: 3px solid purple;
+    color: purple;
+}
+
+.btnAdd {
+    width: 150px;
+    height: 70px;
+    border-radius: 7px;
+    background-color: rgb(38, 197, 38);
+    border: 2px solid rgb(3, 78, 0);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#usersTable {
+    text-align: center;
+}
+
+.warning{
+    border-color: red;
+}
+.normal{
+    border-color: rgb(0, 0, 0);
+}
+
+.deleteButton {
+  background-color: red;
+  color : white;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
